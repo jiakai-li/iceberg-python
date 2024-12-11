@@ -474,7 +474,7 @@ class Transaction:
         """
         Shorthand for deleting record from a table.
 
-        An deletee may produce zero or more snapshots based on the operation:
+        A delete may produce zero or more snapshots based on the operation:
 
             - DELETE: In case existing Parquet files can be dropped completely.
             - REPLACE: In case existing Parquet files need to be rewritten
